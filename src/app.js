@@ -18,6 +18,7 @@ connectDB();
 app.use("/api/auth", authRoutes);
 app.use("/api/ai_generated_path",careerpathRes);
 app.use("/api/roadmap",roadMapRoute)
+app.use("/api/roadmaps",roadMapRoute)
 
 
 const PORT = process.env.PORT || 5000;
